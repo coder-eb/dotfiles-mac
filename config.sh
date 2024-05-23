@@ -4,7 +4,7 @@ SCRIPT=$(realpath "$0")
 SOURCE_DIR=$(dirname "$SCRIPT")
 TARGET_DIR="$HOME/testing"
 
-DOTFILES=(.zshrc files)
+DOTFILES=(.zshrc)
 
 #Remove old dotfiles and replace them
 for dotfile in $(echo ${DOTFILES[*]});
