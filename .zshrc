@@ -21,6 +21,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Would you like to use another custom folder than $ZSH/custom?
+export DOTFILES=$HOME/dotfiles-mac
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
