@@ -1,3 +1,6 @@
+# Random stuff
+alias vim="nvim"
+
 # Fast-travel aliases
 alias gotod="$HOME/Downloads"
 alias gotodot=$DOTFILES
