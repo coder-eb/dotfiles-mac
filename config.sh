@@ -2,9 +2,9 @@
 
 SCRIPT=$(realpath "$0")
 SOURCE_DIR=$(dirname "$SCRIPT")
-TARGET_DIR="$HOME/testing"
+TARGET_DIR="$HOME"
 
-DOTFILES=(.zshrc)
+DOTFILES=(.zshrc .oh-my-zsh/custom/aliases.zsh .oh-my-zsh/custom/functions.zsh)
 
 #Remove old dotfiles and replace them
 for dotfile in $(echo ${DOTFILES[*]});
