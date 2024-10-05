@@ -7,7 +7,7 @@ fi
 
 export JAVA_HOME=/Users/ebranbright/.sdkman/candidates/java/current/bin/java
 
-export PATH="/usr/local/bin:/opt/homebrew/opt/php@8.1/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 # X-X-X-------------------- START: ZSH - User configuration --------------------X-X-X
 
