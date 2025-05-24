@@ -4,7 +4,8 @@ SCRIPT=$(realpath "$0")
 SOURCE_DIR=$(dirname "$SCRIPT")
 TARGET_DIR="$HOME"
 
-DOTFILES=(.zshrc .oh-my-zsh/custom/aliases.zsh .oh-my-zsh/custom/functions.zsh .config/nvim/lua/custom)
+#DOTFILES=(.zshrc .oh-my-zsh/custom/aliases.zsh .oh-my-zsh/custom/functions.zsh .config/nvim/lua/custom)
+DOTFILES=(.zshrc .oh-my-zsh/custom/aliases.zsh .oh-my-zsh/custom/functions.zsh) #nvchad does not support custom folder 
 
 #Remove old dotfiles and replace them
 for dotfile in $(echo ${DOTFILES[*]});
